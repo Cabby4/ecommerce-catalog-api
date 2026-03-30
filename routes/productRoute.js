@@ -22,4 +22,4 @@ router.put('/products/:id', validateUpdateProductSchema, updateProduct)
 
 router.delete('/products/:id', deleteProduct)
 
-module.exports = router
+module.exports = router ;

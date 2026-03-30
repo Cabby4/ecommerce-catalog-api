@@ -1,4 +1,4 @@
-const ProductModel = require('../model/productModel')
+const ProductModel = require ('../models/productModel')
 
 
 // CREATE PRODUCT
