@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js",
-    "dev" : "nodemon index.js"
+    "test": "jest --detectOpenHandles",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,19 @@
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "joi": "^18.1.1",
-    "mongoose": "^9.3.3",
-    "nodemon": "^3.1.14"
+    "mongoose": "^9.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cabby4/ecommerce-catalog-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cabby4/ecommerce-catalog-api/issues"
+  },
+  "homepage": "https://github.com/Cabby4/ecommerce-catalog-api#readme",
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
   }
 }
