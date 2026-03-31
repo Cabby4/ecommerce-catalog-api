@@ -42,13 +42,35 @@ GET /api/products?page=1&limit=5&sort=price&search=laptop&category=Electronics
 - Request logging middleware
 
 ## Deployment
-Live API URL (Render):  
-
-https://ecommerce-catalog-api.onrender.com
+Live API URL (Render):  https://ecommerce-catalog-api-u979.onrender.com
 
 
 ## Testing
-Endpoints were tested manually using Thunder Client/Postman.  
-👉 Add screenshots here showing successful requests and responses for each endpoint.
+All endpoints were tested manually using Thunder Client.
+
+### Screenshots
+- **Create Product**  
+  ![Create Product](screenshots/create.png)
+
+- **Get Products**  
+  ![Get Products](screenshots/get.png)
+
+- **Pagination**  
+  ![Pagination](screenshots/pagination.png)
+
+- **Search**  
+  ![Search](screenshots/search.png)
+
+- **Filter by Category**  
+  ![Category](screenshots/category.png)
+
+- **Get Single Product**  
+  ![Single Product](screenshots/single.png)
+
+- **Update Product**  
+  ![Update Product](screenshots/update.png)
+
+- **Delete Product**  
+  ![Delete Product](screenshots/delete.png)
 
 ---

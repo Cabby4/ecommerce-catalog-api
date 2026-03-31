@@ -86,7 +86,7 @@ const updateProduct = async (req, res, next) => {
   try {
     const product = await ProductModel.findByIdAndUpdate(
       req.params.id,
-      value,
+      req.body,
       { new: true, runValidators: true }
     )
 
